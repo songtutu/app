@@ -7,7 +7,10 @@ import app from './App.vue'
 import 'mint-ui/lib/style.css'
 import MintUI from 'mint-ui'
 import './assets/lib/css/mui.min.css'
+import './assets/lib/css/icons-extra.css'
+import Resource from 'vue-resource'
 
+Vue.use(Resource)
 Vue.use(MintUI)
 Vue.config.productionTip = false
 
